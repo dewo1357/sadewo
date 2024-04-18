@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .gridcard{
+        @apply bg-sky-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden 
+        hover:scale-95 transition-all duration-1000 mb-10;
+    }
+}
+
+@layer base {
+    h1{
+        @apply text-8xl;
+    }
+}
+
